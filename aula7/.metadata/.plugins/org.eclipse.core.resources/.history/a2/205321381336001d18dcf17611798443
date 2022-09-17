@@ -1,0 +1,7 @@
+
+public class RemoteControl {
+	private Command[] onCommand;
+	
+	private static int slots = 4;
+
+}

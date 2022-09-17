@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+C:\Users\autologon\Desktop\aula7\.metadata\.plugins\org.eclipse.jdt.core
+3148887510.index
+1865797976.index
+1642175237.index

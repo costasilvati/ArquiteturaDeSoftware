@@ -1,0 +1,9 @@
+
+public class Luz {
+	String nome;
+	
+	public Luz (String nome) {
+		this.nome = nome;
+	}
+
+}

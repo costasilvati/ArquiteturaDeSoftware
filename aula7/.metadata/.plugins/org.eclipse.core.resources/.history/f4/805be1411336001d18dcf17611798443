@@ -1,0 +1,19 @@
+
+public class RemoteControl {
+	private Command[] onCommand;
+	
+	private static int slots = 4;
+	
+	public RemoteControl() {
+		this.onCommand = new Command[slots];
+	}
+	
+	public boolean addDevice(int slot, Command device) {
+		if(this.onCommand[slot] == null) {
+			this.onCommand[slot] = device;
+		}
+	}
+	
+	
+
+}

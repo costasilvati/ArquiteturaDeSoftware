@@ -1,0 +1,16 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		Luz luzCozinha = new Luz("Cozinha");
+		LuzCommand commandLuzCozinha = new LuzCommand(luzCozinha);
+		//LuzCommand commandLuzCoz = new LuzCommand(new Luz("Cozinha"));
+		
+		RemoteControl controle = new RemoteControl();
+		controle.addDevice(1, commandLuzCozinha);
+		controle.ligar(1);
+		
+
+	}
+
+}
